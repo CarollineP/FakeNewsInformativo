@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Combate as Fake News</title>
+</head>
+<body>
+  <div class="container">
+    <a class="prev" href="#" onclick="addSlides(-1)">
+      <span>&#10094;</span>
+      <span class="prev-text">Voltar</span>
+    </a>
+    <div>
+      <div class="slides fade">
+        <img src="assets/slide1.png" />
+        <h2 class="title">O que são FAKE NEWS?</h2>
+        <p class="content">No mundo digital em que vivemos, a disseminação de notícias falsas se tornou uma grande preocupação. Com o avanço da tecnologia e a facilidade de compartilhamento de informações, é crucial que saibamos como identificar e combater a fake news.</p>
+      </div>
+      <div class="slides fade">
+        <img src="assets/slide2.png" />
+        <h2 class="title">Nosso compromisso!</h2>
+        <p class="content">Combater a fake news é responsabilidade de todos nós. Ao identificar e evitar a propagação de notícias falsas, contribuímos para um ambiente digital mais seguro e confiável para todos!
+        </p>
+      </div>
+      <div class="slides fade">
+        <img src="assets/slide3.png" />
+        <h2 class="title">Acesse aqui!
+        </h2>
+        <p class="content">Acessando este QRcode você conhecerá mais sobre o tema, confira. <br/><br/>
+          <span>(Carolline Piccoli e Pedro Henrique Trentin)</span>
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="button" onclick="addSlides(1)">Próximo</button>
+      <div class="dot-box">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </div>
+  <script src="handle.js"></script>
+</body>
+</html>
